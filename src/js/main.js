@@ -174,7 +174,7 @@ function showMoreDetials(className) {
 	const block2 = document.getElementById('hero-box-4')
 
 	if (btn) {
-		btn.addEventListener('mouseenter', (e) => {
+		btn.addEventListener('click', (e) => {
 			// Remove "active" class from all elements with class "hero-box"
 			document.querySelectorAll('.hero-box').forEach((ele) => {
 				if (ele.id !== className) {
